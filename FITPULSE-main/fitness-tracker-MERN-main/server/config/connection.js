@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 mongoose.set("strictQuery", false);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://abhiraj4986:7XLk9aKhwZGKJXkK@fitpulse.n7svpoy.mongodb.net/", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://navin:1234abcd@cluster0.ihkf0.mongodb.net/", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }, err => {
